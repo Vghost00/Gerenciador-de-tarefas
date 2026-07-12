@@ -1,0 +1,73 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fdfdff;
+    text-align: center;
+    FONT-FAMILY: Arial, sans-serif;
+}
+
+.container{
+    width: 500px;
+    border: 2px solid #fdfdfd;
+    background:transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+   
+h1{
+    font-size: 2.5rem;
+    color: #070606;
+    margin-bottom: 20px;
+}
+
+.progress-container{
+    width: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px auto;
+}
+
+.progress-bar{
+    height: 100%;
+    background-color: #168419;
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+}
+
+#taskinputcontainer{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+#tasbkinput{
+    flex: 1;
+    padding: 5px 20px;
+    border: 2px solid #0a0909;
+    border-radius: 50px;
+}
+
+#taskinputcontainer button{
+    padding: 5px 20px;
+    border: 2px solid #0a0909;
+    border-radius: 50px;
+    background-color: #168419;
+    color: #fff;
+    cursor: pointer;
+}
+
+.task-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc; 
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
